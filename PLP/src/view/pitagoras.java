@@ -96,8 +96,14 @@ public class pitagoras extends javax.swing.JFrame {
 
         jLabel1.setText("Resposta:");
 
+        resposta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                respostaActionPerformed(evt);
+            }
+        });
+
         jLabel2.setFont(new java.awt.Font("Meiryo", 3, 18)); // NOI18N
-        jLabel2.setText("c = a²+b²");
+        jLabel2.setText("c² = a²+b²");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -231,6 +237,10 @@ public class pitagoras extends javax.swing.JFrame {
             resposta.setText(result);
         }
     }//GEN-LAST:event_send1ActionPerformed
+
+    private void respostaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_respostaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_respostaActionPerformed
 
     /**
      * @param args the command line arguments

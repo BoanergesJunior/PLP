@@ -171,13 +171,16 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="resposta">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="respostaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Meiryo" size="18" style="3"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="c = a&#xb2;+b&#xb2;"/>
+        <Property name="text" type="java.lang.String" value="c&#xb2; = a&#xb2;+b&#xb2;"/>
       </Properties>
     </Component>
   </SubComponents>

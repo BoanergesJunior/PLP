@@ -75,7 +75,7 @@ public class main_view extends javax.swing.JFrame {
             }
         });
 
-        torricelli.setText("Equalçao de Torricelli");
+        torricelli.setText("Equaçao de Torricelli");
         torricelli.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 torricelliActionPerformed(evt);
